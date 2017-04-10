@@ -1,7 +1,7 @@
 ﻿/**
  * Created by Filip on 2017-04-09.
  */
-public class main {
+public class sortTest {
 
     public static void main(String[] args) {
         int[] integers = {9, 1, 15, -195, 2147483647};
