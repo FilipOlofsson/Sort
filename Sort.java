@@ -55,4 +55,14 @@ public class Sort {
         }
         return words;
     }
+
+    public static boolean isSorted(int[] numbers) {
+        int[] sorted = selSort(numbers);
+        for(int i = 0; i < numbers.length; i++) {
+            if(numbers[i] != sorted[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
